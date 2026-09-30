@@ -1,6 +1,6 @@
-# HST Stellar Treasure Trove Website
+# JWST Eyes on the Stars Website
 
-Official website for the HST Stellar Treasure Trove program.
+Official website for the JWST Eyes on the Stars archival research program.
 
 This site is built using a modified version of the **Hyperspace** template by HTML5 UP.
 

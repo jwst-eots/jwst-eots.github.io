@@ -3251,6 +3251,83 @@ input, select, textarea {
 				border-top: 0;
 			}
 
+	.targets-intro {
+		font-size: 1.1em;
+		margin-bottom: 0.75em;
+	}
+
+	.targets-table-wrapper {
+		margin: 2.25em 0 1.25em 0;
+	}
+
+	.targets-table {
+		font-size: 0.9em;
+		line-height: 1.55;
+		margin-bottom: 0;
+		min-width: 52rem;
+	}
+
+		.targets-table thead {
+			background-color: var(--color-dark-gray);
+			border-bottom: solid 2px var(--color-gray);
+		}
+
+		.targets-table th,
+		.targets-table td {
+			padding: 0.85em 1em;
+			vertical-align: middle;
+		}
+
+		.targets-table thead th {
+			font-size: 0.85em;
+			letter-spacing: 0.075em;
+			padding-bottom: 0.85em;
+			text-transform: uppercase;
+		}
+
+		.targets-table tbody th {
+			color: var(--color-white);
+			font-weight: bold;
+			text-align: left;
+		}
+
+		.targets-table tbody tr {
+			border-color: var(--color-gray);
+		}
+
+			.targets-table tbody tr:nth-child(2n + 1) {
+				background-color: var(--color-dark-gray);
+			}
+
+		.targets-table th:nth-child(3),
+		.targets-table td:nth-child(3) {
+			text-align: center;
+			white-space: nowrap;
+			width: 1%;
+		}
+
+		.targets-table th:nth-child(4),
+		.targets-table td:nth-child(4) {
+			white-space: nowrap;
+			width: 1%;
+		}
+
+		.targets-table a {
+			white-space: nowrap;
+		}
+
+	.program-links {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.15em 0.75em;
+	}
+
+	.targets-note {
+		color: var(--color-lighter-gray);
+		font-size: 0.9em;
+		margin-bottom: 1em;
+	}
+
 /* Wrapper */
 
 	.wrapper {
