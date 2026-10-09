@@ -3299,15 +3299,17 @@ input, select, textarea {
 				background-color: var(--color-dark-gray);
 			}
 
-		.targets-table th:nth-child(3),
-		.targets-table td:nth-child(3) {
+		.targets-table th:nth-child(4),
+		.targets-table td:nth-child(4) {
 			text-align: center;
 			white-space: nowrap;
 			width: 1%;
 		}
 
-		.targets-table th:nth-child(4),
-		.targets-table td:nth-child(4) {
+		.targets-table th:nth-child(2),
+		.targets-table td:nth-child(2),
+		.targets-table th:nth-child(5),
+		.targets-table td:nth-child(5) {
 			white-space: nowrap;
 			width: 1%;
 		}
