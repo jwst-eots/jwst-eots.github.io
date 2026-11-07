@@ -2665,6 +2665,63 @@ input, select, textarea {
 				width: 100%;
 			}
 
+/* Papers */
+
+	.paper-transition {
+		margin: 3em 0;
+	}
+
+	.paper-figures {
+		container-type: inline-size;
+		display: grid;
+		grid-template-columns: minmax(0, 1fr);
+		margin-top: 2.5em;
+		row-gap: 2rem;
+	}
+
+	.paper-figure {
+		display: grid;
+		grid-template-columns: minmax(0, 1fr);
+		margin: 0 auto;
+		row-gap: 0.5rem;
+		width: 100%;
+	}
+
+		.paper-figure .image.fit {
+			margin: 0;
+		}
+
+		.paper-figure .paper-figure-image img {
+			/* Figure 9 fits the content width at 90% of the other figures' height. */
+			height: calc(100cqw * 1040 / 4179 / 0.9 * var(--paper-figure-height-scale, 1));
+			max-width: 100%;
+			width: auto;
+			object-fit: contain;
+			margin: 0 auto;
+		}
+
+		.paper-figure-short {
+			--paper-figure-height-scale: 0.9;
+		}
+
+		.paper-figure-caption {
+			font-size: 0.95em;
+			margin: 0;
+		}
+
+	@media screen and (max-width: 736px) {
+
+		.paper-transition {
+			margin: 2.5em 0;
+		}
+
+		.paper-figures {
+			margin-top: 2em;
+			row-gap: 2rem;
+		}
+
+	}
+
 /* List */
 
 	ol {
